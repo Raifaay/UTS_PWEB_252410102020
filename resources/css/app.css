@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-mono: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+    /* Palet Amour Capture (samakan hex-nya dengan Figma-mu) */
+    --color-amour-50: #fff1f6;
+    --color-amour-100: #fde4ed;
+    --color-amour-200: #f9b8cc;
+    --color-amour-300: #f78fb0;
+    --color-amour-400: #f5668f;
+    --color-amour-500: #e84a77;
+    --color-amour-700: #b93a5e;
+}
